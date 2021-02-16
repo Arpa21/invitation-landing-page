@@ -1,0 +1,29 @@
+.footer-menu {
+  display: flex;
+
+  > :not(:first-child) {
+    margin-left: 40px;
+  }
+
+  &__menu-column-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  &__menu-column-links {
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-top: 6px;
+    }
+  }
+
+  &__menu-column-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

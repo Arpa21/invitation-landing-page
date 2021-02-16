@@ -1,0 +1,26 @@
+.footer-info {
+  width: 489px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__main {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  &__logos {
+    margin-top: 12px;
+
+    > :not(:first-child) {
+      img {
+        margin-left: 8px;
+      }
+    }
+  }
+}

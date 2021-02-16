@@ -1,0 +1,70 @@
+.main-cta-section {
+	background: #0a0a0a;
+	color: #ffffff;
+	padding-left: 64px;
+	padding-right: 64px;
+	display: flex;
+	height: 382px;
+	align-items: center;
+
+	> :not(:first-child) {
+		margin-left: -60px;
+	}
+
+	&__text-content {
+		flex: 0 0 50%;
+	}
+
+	&__title {
+		font-size: 48px;
+		font-weight: 600;
+	}
+
+	&__subtitle-list {
+		list-style: none;
+		font-size: 20px;
+		font-weight: 400;
+
+		> :not(:first-child) {
+			margin-top: 10px;
+		}
+	}
+
+	&__subtitle-list-item {
+		/** the image will be vertically aligned in the center **/
+		background: url('../../assets/iconmonstr-check-mark-4 (1)-3.svg') left center no-repeat;
+
+		/** move the text to the right **/
+		padding-left: 40px;
+	}
+
+	&__cta {
+		margin-top: 30px;
+		margin-bottom: 15px;
+		display: flex;
+
+		> :not(:first-child) {
+			margin-left: 15px;
+		}
+	}
+
+	&__google-button {
+		display: flex;
+		align-items: center;
+		background: #ffffff;
+		border-radius: 5px;
+		font-size: 16px;
+		font-weight: 600;
+		color: #000000;
+		border: none;
+		cursor: pointer;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&__image {
+		height: 420px;
+	}
+}

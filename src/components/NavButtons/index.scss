@@ -1,0 +1,29 @@
+.nav-buttons {
+  > :not(:first-child) {
+    margin-left: 30px;
+  }
+
+  &__login,
+  &__signup {
+    width: 112px;
+    height: 41px;
+    font-size: 18px;
+    font-weight: 600;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__login {
+    background: #ffffff;
+    color: #040404;
+    border: none;
+  }
+
+  &__signup {
+    background: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+}
